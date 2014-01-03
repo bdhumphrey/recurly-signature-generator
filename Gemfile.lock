@@ -1,0 +1,28 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    json (1.8.1)
+    kgio (2.8.1)
+    rack (1.5.2)
+    rack-protection (1.5.1)
+      rack
+    raindrops (0.12.0)
+    recurly (2.2.0)
+    sinatra (1.4.4)
+      rack (~> 1.4)
+      rack-protection (~> 1.4)
+      tilt (~> 1.3, >= 1.3.4)
+    tilt (1.4.1)
+    unicorn (4.7.0)
+      kgio (~> 2.6)
+      rack
+      raindrops (~> 0.7)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  json
+  recurly
+  sinatra
+  unicorn
