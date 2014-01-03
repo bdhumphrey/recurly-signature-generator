@@ -4,3 +4,4 @@ gem 'sinatra'
 gem 'unicorn' # server
 gem 'recurly'
 gem 'json'
+gem 'rack-contrib'

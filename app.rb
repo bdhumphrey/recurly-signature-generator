@@ -1,5 +1,7 @@
 class App < Sinatra::Base
 
+  use Rack::JSONP
+
   get '/:plan/signature' do
     content_type :json
     Recurly.subdomain      = 'recurlyjsdemo-test'
