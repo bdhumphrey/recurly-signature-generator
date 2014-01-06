@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
-# sinatra
+
 gem 'sinatra'
-gem 'unicorn' # server
+gem 'unicorn'
 gem 'recurly'
 gem 'json'
 gem 'rack-contrib'
